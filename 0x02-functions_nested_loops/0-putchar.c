@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	char rahek[] = "_putchar";
+	char rahel[] = "_putchar";
 
 	int c;
 
