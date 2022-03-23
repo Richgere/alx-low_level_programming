@@ -1,14 +1,17 @@
 #include "main.h"
-#include "stdio.h"
 /**
  * _puts - prints a string followed by a new line
  * @str: input
  */
-void putchar(char *str)
+void _puts(char *str)
 {
-	char *str;
+	int i = 0;
 
-    str = "I do not fear computers. I fear the lack of them - Isaac Asimov";
-    putchar(str);
-    return (0);
+	while (str[i] != '\0')
+	{
+		_putchar(str[i]);
+		i++;
+	}
+	_putchar('\n');
 }
+
